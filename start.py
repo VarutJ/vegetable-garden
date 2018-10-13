@@ -27,7 +27,7 @@ motion_pin = 12
 GPIO.setup(motion_pin, GPIO.IN)
 
 #Water
-water_pin = 4
+water_pin = 16
 GPIO.setup(water_pin, GPIO.IN)
 
 def water_not_found(relay_pin):
